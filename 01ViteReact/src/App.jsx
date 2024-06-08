@@ -11,14 +11,15 @@
 
 
 
-import Demo from "./demo"
 
+import Demo from "./Demo"
 
 function App() {
   const username = "chai aur code"
 
-  return (
-    <>
+  return (   // in jsx you can return only one element (<> </>)
+    // in React  you can return <> </> This is called fragment
+    <>      
     <Demo/>
     <h1>This is for demo with react {username}</h1>
     <p>test para</p>
