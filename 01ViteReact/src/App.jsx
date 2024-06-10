@@ -14,6 +14,8 @@
 
 import Demo from "./Demo"
 
+
+// This is called components in React
 function App() {
   const username = "chai aur code"
 
