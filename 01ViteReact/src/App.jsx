@@ -11,19 +11,16 @@
 
 
 
-
-import Demo from "./Demo"
-
-
-// This is called components in React
+import Demo from "./demo"
 function App() {
   const username = "chai aur code"
 
   return (   // in jsx you can return only one element (<> </>)
-    // in React  you can return <> </> This is called fragment
-    <>      
-    <Demo/>
-    <h1>This is for demo with react {username}</h1>
+             // in React  you can return <> </> This is called fragment
+    <>
+      <Demo />
+      {/* Evaluation Expression */}
+    <h1>chai aur react {username}</h1> 
     <p>test para</p>
    </>
   )
